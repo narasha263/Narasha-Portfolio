@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Narasha Mepukori | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-yellow-600">Narasha Mepukori</h1>
+      <div class="space-x-4 text-sm">
+        <a href="#about" class="hover:text-yellow-600">About</a>
+        <a href="#projects" class="hover:text-yellow-600">Projects</a>
+        <a href="#contact" class="hover:text-yellow-600">Contact</a>
+        <a href="resume.html" class="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="min-h-screen flex items-center justify-center text-center bg-gray-900 text-white px-4 pt-24">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Narasha Mepukori</h1>
+      <p class="text-lg mb-6">A passionate IT professional skilled in web development, networking, and digital marketing.</p>
+      <a href="#contact" class="bg-yellow-500 text-black px-6 py-3 rounded-full font-medium hover:bg-yellow-600">Let’s Connect</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I’m an ambitious and creative graduate in Information Technology with a strong foundation in software and web development, networking, and research. I hold a BSc in IT and a Diploma in IT, with certifications in Cisco Networking, IoT, and Big Data. I specialize in creating responsive websites, managing WordPress content, and building digital marketing campaigns.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+  <h3 class="text-xl font-semibold mb-2">NMP Dynamics Landing Page</h3>
+  <p class="text-sm mb-3">HTML · Tailwind CSS · JavaScript</p>
+  <p class="text-gray-700 mb-2">Responsive landing page with service highlights, a call-to-action button, and contact form. Designed for a fictional digital marketing agency.</p>
+  <a href="https://nmpdynamics.netlify.app" target="_blank" class="text-yellow-600 hover:underline text-sm">View Live</a> |
+  <a href="https://github.com/narasha263/NMP-Dynamics" target="_blank" class="text-yellow-600 hover:underline text-sm">Source Code</a>
+</div>
+
+
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Local Business Finder</h3>
+          <p class="text-sm mb-3">PHP · MySQL · Bootstrap</p>
+          <p class="text-gray-700">Built a dynamic web app for finding local services, complete with admin dashboard and search filters.</p>
+        <a href="https://tunayo-business-spotlight-kenya.lovable.app/" target="_blank" class="text-yellow-600 hover:underline text-sm">View Live</a> |
+        <a href="https://github.com/narasha263/local-business-finder" target="_blank" class="text-yellow-600 hover:underline text-sm">Source Code</a>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Thrift Online Store</h3>
+          <p class="text-sm mb-3">WordPress · WooCommerce</p>
+          <p class="text-gray-700">Developed an online thrift store concept with product uploads, payment integration, and customer experience focus.</p>
+            <a href="https://nmpdynamics.netlify.app" target="_blank" class="text-yellow-600 hover:underline text-sm">View Live</a> |
+            <a href="https://github.com/yourusername/nmp-landing" target="_blank" class="text-yellow-600 hover:underline text-sm">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="mb-4 text-gray-600">I'm currently open to opportunities and collaborations. Let’s create something impactful together!</p>
+
+      <div class="mb-6">
+        <p><strong>📍 Location:</strong> Ruiru, Nairobi</p>
+        <p><strong>📞 Phone:</strong> +254 114908496</p>
+        <p><strong>✉️ Email:</strong> <a href="mailto:narasha263@gmail.com" class="text-yellow-600 hover:underline">narashamepukori@gmail.com</a></p>
+      </div>
+
+      <form action="https://formspree.io/f/xdkzyand" method="POST" class="grid md:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
+        <input type="text" placeholder="Your Name" class="p-3 rounded border border-gray-300" required>
+        <input type="email" placeholder="Your Email" class="p-3 rounded border border-gray-300" required>
+        <textarea placeholder="Your Message" class="p-3 rounded border border-gray-300 md:col-span-2" rows="4" required></textarea>
+        <button type="submit" class="md:col-span-2 bg-yellow-500 text-white py-3 rounded hover:bg-yellow-600">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-800 text-gray-300 text-sm">
+    &copy; 2025 Narasha Mepukori. All rights reserved.
+  </footer>
+
+</body>
+</html>
